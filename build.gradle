@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group = 'cw.ucsp.app'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.hadoop:hadoop-common:3.4.1'
+    implementation 'org.apache.hadoop:hadoop-mapreduce-client-core:3.4.1'
+    implementation 'org.apache.hadoop:hadoop-mapreduce-client-jobclient:3.4.1'
+    implementation 'org.apache.hadoop:hadoop-mapreduce-client-common:3.4.1'
+    /*implementation 'org.slf4j:slf4j-api:2.0.17'
+    implementation 'ch.qos.logback:logback-classic:1.5.18'*/
+}
